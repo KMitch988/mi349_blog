@@ -1,21 +1,20 @@
 body{
     size: auto;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #ffffff;
+    font-family:'Times New Roman', Times, serif;
+    color: #403D39;
     margin: 0 auto;
     padding: 0;
-    background: #111016;
-    line-height: 1.6em;
+    background: #F6F4F3;
+    line-height: 2em;
 }
 
 header{
     position: sticky;
     top: 0;
-    box-sizing: border-box;
-    background: #111016;
+    background: #F6F4F3;
     width: 100%;
     line-height: 0;
-    text-align: center;
+
 }
 
 h1{
@@ -23,20 +22,31 @@ h1{
     font-style: oblique;
     font-weight: 300;
 }
+
+h2{
+    font-size: 2.5em;
+    text-align: center;
+}
+
+h4{
+    font-size: 1.3em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
 .bites{
     color: #FC7A1E;
 }
 
 .navbar{
-    display: inline-flex;
-    margin: auto;
-    justify-content: center;
+    display: flex;
+    justify-content: space-evenly;
     align-items: center;
+    border-bottom: 1px solid #9e9d9d34;
 }
 
 .nav_list{
-    display: inline-flex;
-    background: red;
+    display: flex;
 }
 
 .nav_list li{
@@ -48,8 +58,7 @@ h1{
     font-weight: 300;
     font-style: oblique;
     text-decoration: none;
-    color: #ffffff;
-    ;
+    color: #252422;
     padding: 15px 15px;
 }
 .page{
@@ -59,54 +68,156 @@ h1{
     margin-left: auto;
     margin-right: auto;
 }
+
+
 .blog{
     flex: 3;
     text-align: center;
-    margin: 0 auto;
-}
-
-.blog-post{
-    border-radius: 15px;
 }
 
 .blog article{
-    margin: 10px;
+    text-align: left;
+    margin-right: 80px;
+    margin-left: 80px;
     padding: 10px;
+    border-radius: 2%;
+}
+
+.blog h3{
+    font-size: 2em;
+}
+
+
+.blog a{
+    font-size: 1.2em;
+    color: #403D39;
+    font-weight: bold;
 }
 
 .blog img{
-    height: 450px;
-    width: 750px;
-    border-radius: 5%;
+    height: 500px;
+    width: 900px;
+    border-radius: 10px;
 }
 
 .blog p{
     text-align: left;
-    margin: 40px;
+    font-size: 1.4em;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 table{
-    table-layout: fixed;
     width: 50%;
-    border-collapse: collapse;
-    border: solid;
-}
-.form{
-    flex: 21;
-    margin-top: 8%;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
-    border: 1px solid;
-    height: 200px;
+    background: #c7c7c731;
 }
 
-.form .newsletter_form{
+td,th{
+    border: 2px solid black;
+    font-weight: 300;
+    font-size: 1.1em;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    text-align: center;
+    background: #c7c7c731;
+    border: 2px solid #403D39;
+    border-radius: 10px;
+    height: 250px;
+    width: 200px;
+}
+
+#form label{
+    font-size: 1em;
+    font-variant: small-caps;
+}
+
+#form input{
+    background: #F6F4F3;
+    color:#403D39;
+    border: 2px solid #69616140;
+    margin-top: 20px;
+    width: 168px;
+    height: 30px;
+}
+
+#form button{
+    font-weight: 600;
+    background: #403D39;
+    color:#F6F4F3;
+    margin-top: 20px;
+    width: 175px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#introduction img{
+    float: right;
+}
+
+
+.contact_form{
+    width: 850px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background: #0a0a0a0c;
+    padding: 25px;
+    border: 2px solid #403D39;
+    border-radius: 10px;
+}
+
+.contact_form[class]{
+    color: #403D39;
+    font-variant: small-caps;
+}
+
+.info_box{
+    flex: 1;
+    text-align: center;
+}
+
+.info_box input{
+    width: 250px;
+    padding: 10px;
+    margin-bottom: 2px;
+}
+
+.info_box select{
+    width: 275px;
+    padding: 10px;
+}
+
+.message_box{
+    flex: 1;
+    text-align: center;
+    margin-right: 30px;
 
 }
 
-#introduction{
-    border-top: solid 1px #000000;
+.contact_form button{
+    font-weight: 600;
+    background: #403D39;
+    border-radius: 5px;
+    color:#F6F4F3;
+    margin-top: 20px;
+    width: 275px;
+    height: 30px;
+
 }
 
-#contact{
-    border-top: solid 1px #000000;
+textarea{
+    font-family: inherit;
+    font-size: inherit;
+    min-width: 20em;
+    min-height: 17em;
+    max-width: 20em;
+    max-height: fit-content;
 }
