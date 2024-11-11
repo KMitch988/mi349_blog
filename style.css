@@ -160,8 +160,8 @@ td,th{
 
 #introduction img{
     float: left;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 250px;
     border-radius: 10px;
     margin-right: 40px;
 }
@@ -169,16 +169,16 @@ td,th{
     text-align: center;
 }
 #introduction .start{
-    font-size: 1.5em;
+    font-size: 1.6em;
     text-align: left;
-    width: 1100px;
-    height: 350px;
+    width: 1280px;
+    height: 300px;
 }
 
 #introduction .hobbies_skills{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
 
 }
 #introduction .hobbies_skills p{
