@@ -71,21 +71,17 @@ h4{
 
 .blog{
     flex: 3;
-    text-align: center;
 }
 
 .blog article{
     text-align: left;
     margin-right: 80px;
     margin-left: 80px;
-    padding: 10px;
-    border-radius: 2%;
 }
 
 .blog h3{
     font-size: 2em;
 }
-
 
 .blog a{
     font-size: 1.2em;
@@ -123,7 +119,7 @@ td,th{
 #form{
     display: flex;
     flex-direction: column;
-    margin-top: 200px;
+    margin-top: 160px;
     text-align: center;
     background: #c7c7c731;
     border: 2px solid #403D39;
