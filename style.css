@@ -157,8 +157,42 @@ td,th{
     border-radius: 5px;
 }
 
+#introduction{
+    width: 1280px;
+    margin: 0 auto;
+    line-height: 2em;
+}
+
 #introduction img{
-    float: right;
+    float: left;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-right: 40px;
+}
+#introduction p,ul{
+    text-align: center;
+}
+#introduction .start{
+    font-size: 1.5em;
+    text-align: left;
+    width: 1100px;
+    height: 350px;
+}
+
+#introduction .hobbies_skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+#introduction .hobbies_skills p{
+    font-size: 1.6em;
+}
+#introduction .hobbies_skills li{
+    list-style-type: none;
+    font-size: 1.4em;
+    margin-left: -20px;
 }
 
 
